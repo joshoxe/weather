@@ -1,24 +1,11 @@
 # weather-app
 
-## Project setup
-```
-npm install
-```
+In 2016 I knuckled down with programming and started on some courses to get myself employable. A project for one of those courses was a weather app -- the project was pretty ugly, and written badly (I committed my API keys directly to github!).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+My aim this year is to get more practice in my own time, so over the course of a few hours I recreated that weather app (and I think it's much better!)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Run it
 
-### Lints and fixes files
-```
-npm run lint
-```
+It's written in Vue3, uses vite. Can run locally with `npm run serve`. It expects an API key as an environment variable: `VUE_APP_WEATHER_API_KEY`.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Live version at https://weather.oxenham.dev
